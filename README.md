@@ -26,11 +26,11 @@ Contrary to convention, there are no unit tests.  This was to keep the footprint
 
 ## Installation
 
-Clone this repo and spin up in a PHP 7.4 web environment. Ensure static .js and .css file types can be serviced.
+Clone this repo and spin up in a PHP 7.4 web environment. Ensure static .js and .css file types can be serviced.  Set the root as /public.
 
 ## Usage
 
-Navigate to the root, or index.php.
+Navigate to the web root, or /index.php.
 
 ## Contributing
 None.
