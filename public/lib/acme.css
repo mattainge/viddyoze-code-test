@@ -1,0 +1,118 @@
+
+body {
+    font-family: Roboto, Helvetica, Sans-serif;
+    color: #333 ;
+}
+
+header{
+    font-size: 1.15em;
+    color: #555;
+}
+
+#shop{
+    display:flex ;
+    flex-wrap: wrap ;
+}
+
+#shop > * {
+    flex: 1 1 15em ;
+}
+
+#catalogue {
+    flex-grow: 3 ;
+}
+
+#catalogue ul {
+    display: flex ;
+    flex-wrap: wrap ;
+    margin:0;
+    padding:0;
+}
+
+#catalogue ul li {
+    flex: 1 1 10em ;
+    border-radius: 0.25em;
+    background-color: #bbc ;
+    margin: 0.5em ;
+    list-style-type: none ;
+    padding: 1em; 
+}
+
+#catalogue ul li button {
+    border-radius: 0.25em;
+    font-size: 1.5em ;
+    color: #25f;
+    background-color: #fff;
+    border: 1px solid #25f ;
+}
+
+#catalogue ul li button:active {
+    background-color: #ccf;
+}
+
+#catalogue ul li, #basket {
+    border-radius: 0.25em;
+    padding: 1em; 
+}
+
+#catalogue ul li p.title {
+    font-size: 1.2em;
+    font-weight: bold ;
+    margin:0;
+    
+}
+#catalogue ul li p.code {
+    margin:0;
+    padding:0;
+    font-size: 0.85em ;
+    font-style: italic ;
+}
+#catalogue ul li p.price {
+    font-weight: bold ;
+    color: #a00 ;
+}
+#catalogue ul li p.price:before,
+#basket p span:before{
+    content: "$";
+}
+#catalogue ul li p.description {
+    font-size: 0.85em ;
+    color: #555 ;
+}
+
+#basket{
+    flex: 1 1 11em ;
+    font-size: 0.8em; 
+    min-width:20em; 
+    width:20vw; 
+    background-color:#ddd; 
+    margin:0 1em 1em 1em; 
+    overflow:auto;
+}
+
+#basket ul {
+    font-size: 1.25em ;
+    padding: 0 1em;
+}
+
+#basket li {
+    
+}
+
+p#delivery{
+    display:none;
+}
+
+p#discounts{
+    display: none;
+}
+
+p#activeOffers{
+    display: none ;
+}
+
+p#total{
+    display: none ;
+    font-size: 1.2em;
+    color: #900;
+}

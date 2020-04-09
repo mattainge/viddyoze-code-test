@@ -1,0 +1,15 @@
+{
+  "name": "mattainge/viddyoze-code-test",
+  "description": "Acme Widget Co. (Viddyoze Code Test)",
+  "version": "1.0.0",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "AcmeWidgetCo\\":"src/"
+    }
+  },
+  "prefer-stable": true,
+  "require-dev": {
+  }
+}
